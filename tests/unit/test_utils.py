@@ -12,6 +12,7 @@ class TestPower:
 
     def test_power_positive_integers(self):
         """Test power with positive integers"""
+        assert False
         assert power(2, 3) == 8
         assert power(3, 2) == 9
         assert power(5, 2) == 25
@@ -88,5 +89,3 @@ class TestPower:
         assert power(True, 5) == 1
         assert power(False, 5) == 0
         assert power(2, True) == 2
-
-    def broken(): assert False
